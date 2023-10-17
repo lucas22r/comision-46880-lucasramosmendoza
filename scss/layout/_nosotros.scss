@@ -1,0 +1,22 @@
+
+.articulo1 {
+    font-family: $fuente-principal;
+    font-size: map-get($font-size, xl );
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.articulo2 {
+    @extend .articulo1;
+}
+
+.articulo3 {
+    @extend .articulo2;
+}
+
+.articulo4 {
+    @extend .articulo3;
+}

@@ -1,0 +1,136 @@
+/*header del inicio boostrap*/
+
+header{
+    background-color: black;
+    box-shadow: 2px 2px 10px grey;
+}
+
+.container-fluid{
+    display: flex;
+}
+
+
+header div.container-fluid img {
+    max-width: 100px; 
+    height: auto;
+    margin-right: 20px; 
+
+}
+
+
+header div.container-fluid h1 {
+    font-size: 70px;
+    text-align: center;
+    color: #F7F7F7;
+    background-color: black;
+    font-family: 'Coda', cursive;
+font-family: 'PT Serif Caption', serif;
+}
+
+
+.container-fluid nav ul{
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+}
+
+.container-fluid nav ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.container-fluid nav ul li a{
+    color: #F7F7F7;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+/* body boostrap del inicio*/
+
+body{
+    background-color: #F7F7F7;
+}
+
+.container-lg div{
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.container-lg div .carousel-item.active { 
+    box-shadow: 4px 4px 20px rgb(49, 48, 48);
+}
+
+.options section h2{
+    font-family: 'Coda', cursive;
+    font-family: 'PT Serif Caption', serif;
+}
+
+.bordered-heading {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.bordered-heading::before,
+.bordered-heading::after {
+    content: '';
+    display: inline-block;
+    width: 150px; 
+    height: 4px; 
+    background-color: black; 
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 5px;
+}
+
+.bordered-heading::before {
+    left: 5%;
+}
+
+.bordered-heading::after {
+    right: 0;
+}
+
+.bordered-heading ul li a{
+    font-family: 'Coda', cursive;
+    font-family: 'PT Serif Caption', serif;
+}
+
+.options section ul{
+    padding: 0;
+}
+
+div.options section ul li {
+    font-family: 'Coda', cursive;
+font-family: 'PT Serif Caption', serif;
+    font-size: 40px;
+    color: #F7F7F7;
+    justify-content: center;
+    text-align: center;
+    margin: 10px 0;
+}
+
+div.options section ul li a{
+background-color: black;
+color: #F7F7F7;
+padding: 20px ; 
+text-decoration: none; 
+width: 600px;
+height: 100px;
+display: inline-block;
+border-radius: 10px;
+box-shadow: 2px 2px 10px grey;
+}
+
+div.options section ul li a:hover{
+    color: #F9D949;
+}
+
+main ul li a{
+    color: #F7F7F7;
+    background-color: black;
+}

@@ -1,0 +1,35 @@
+.otras-categorias{
+    font-size: map-get($font-size, md);
+    margin: 5px;
+    }
+    
+    .otras-categorias a{
+        color: $color-pricipal;
+        text-decoration: none;
+        background-color: $negro;
+        border-radius: 5px;
+    }
+    
+    .categorias ul li {
+        font-family: $fuente-principal;
+        font-size: map-get($font-size, xxl );
+        color: $color-pricipal;
+        @include grid (none, auto, center, none, none);
+        text-align: center;
+        margin: 10px 0;
+    }
+    
+    .categorias ul li a{
+    background-color: $negro;
+    color: $color-pricipal;
+    padding: 20px ; 
+    text-decoration: none; 
+    width: 600px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px grey;
+    }
+    
+    .categorias ul li a:hover{
+        color: #F9D949;
+    }

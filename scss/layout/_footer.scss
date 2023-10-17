@@ -1,0 +1,47 @@
+/*footer general*/
+
+.pie-pagina{
+    width: 100%;
+    background-color: black;
+    margin-top: 50px;
+}
+
+footer div.logo2{
+    width: fit-content;
+    margin: 0 auto;
+    padding: 2% ;
+}
+
+footer div.logo2 img{
+    border-radius: 10%;
+}
+
+footer div.redes{
+    text-align: center;
+    justify-content: center;
+    color: $color-pricipal;
+    transition: all 300ms ease;
+}
+
+footer div.redes a{
+    color: $color-pricipal;
+    margin-right: 5px;
+}
+
+footer div.redes a:hover{
+color: $amarillo;
+}
+
+footer div.info{
+    text-align: center;
+    color: $color-pricipal;
+    justify-content: center; 
+    font-family: $fuente-secundaria; 
+}
+
+footer div.copyright{
+    color: $color-pricipal;
+    display: flex;
+    justify-content: left;
+    font-family: $fuente-secundaria;
+}

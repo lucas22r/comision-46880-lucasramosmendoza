@@ -1,0 +1,25 @@
+/*proteinas*/
+
+.container-cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    width: 250px;
+    height: 350px;
+    background-color: #F7F7F7;
+    box-shadow: 2px 2px 10px gray;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+
+}
+
+.container-cards a{
+    text-decoration: none;
+}
+
+.card img{
+    width: 100%;
+}

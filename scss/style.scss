@@ -1,0 +1,31 @@
+
+/*variables*/
+
+@import "./utilities/variables";
+@import "./utilities/mixins";
+@import "./utilities/maps";
+
+/*elementos carpeta base*/
+
+@import "./base/reset";
+
+/*elementos de layout*/
+
+@import "./layout/header";
+@import "./layout/footer";
+@import "./layout/nosotros";
+@import "./layout/contactos";
+@import "./layout/otrascategorias";
+
+/*elementos media queries*/
+@import "./layout/media/mediaqueries";
+
+/*elementos componentes*/
+@import "./components/boostrap";
+@import "./components/card"
+
+
+
+
+
+
