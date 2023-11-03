@@ -1,16 +1,13 @@
 
 /* Media queries del boostrap inicio  */
 
-@media screen and (max-width: 1185px) {
-    header {
-        padding: 5px;
-    }
+@media (min-width: 951px) and (max-width: 1197px) {
 
-    header div.container-fluid img {
+    header .container-fluid img {
         max-width: 70px;
     }
 
-    header div.container-fluid h1 {
+    header .container-fluid h1 {
         font-size: 50px;
     }
 
@@ -24,15 +21,12 @@
 }
 
 @media screen and (max-width: 951px) {
-    header {
-        padding: 5px;
-    }
 
-    header div.container-fluid img {
+    header .container-fluid img {
         max-width: 65px;
     }
 
-    header div.container-fluid h1 {
+    header .container-fluid h1 {
         font-size: 45px;
     }
 
@@ -47,15 +41,12 @@
 
 
 @media screen and (max-width: 874px) {
-    header {
-        padding: 5px;
-    }
 
-    header div.container-fluid img {
+    header .container-fluid img {
         max-width: 65px;
     }
 
-    header div.container-fluid h1 {
+    header .container-fluid h1 {
         font-size: 40px;
     }
 
@@ -69,15 +60,12 @@
 }
 
 @media screen and (max-width: 790px) {
-    header {
-        padding: 5px;
-    }
 
-    header div.container-fluid img {
+    header .container-fluid img {
         max-width: 60px;
     }
 
-    header div.container-fluid h1 {
+    header .container-fluid h1 {
         font-size: 35px;
     }
 
@@ -92,15 +80,11 @@
 
 @media screen and (max-width: 737px) {
 
-    header {
-        padding: 5px;
-    }
-
-    header div.container-fluid img {
+    header .container-fluid img {
         max-width: 60px;
     }
 
-    header div.container-fluid h1 {
+    header .container-fluid h1 {
         font-size: 30px;
     }
 
@@ -115,15 +99,11 @@
 
 @media screen and (max-width: 689px) {
 
-    header {
-        padding: 5px;
-    }
-
-    header div.container-fluid img {
+    header .container-fluid img {
         max-width: 50px;
     }
 
-    header div.container-fluid h1 {
+    header .container-fluid h1 {
         font-size: 25px;
     }
 
@@ -138,15 +118,11 @@
 
 @media screen and (max-width: 631px) {
 
-    header {
-        padding: 5px;
-    }
-
-    header div.container-fluid img {
+    header .container-fluid img {
         max-width: 40px;
     }
 
-    header div.container-fluid h1 {
+    header .container-fluid h1 {
         font-size: 20px;
     }
 
@@ -161,15 +137,11 @@
 
 @media screen and (max-width: 513px) {
 
-    header {
-        padding: 5px;
-    }
-
-    header div.container-fluid img {
+    header .container-fluid img {
         max-width: 40px;
     }
 
-    header div.container-fluid h1 {
+    header .container-fluid h1 {
         font-size: 16px;
     }
 
@@ -185,15 +157,11 @@
 
 @media screen and (max-width: 420px) {
 
-    header {
-        padding: 5px;
-    }
-
-    header div.container-fluid img {
+    header .container-fluid img {
         max-width: 40px;
     }
 
-    header div.container-fluid h1 {
+    header .container-fluid h1 {
         font-size: 16px;
     }
 

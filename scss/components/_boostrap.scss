@@ -5,12 +5,13 @@ header{
     box-shadow: 2px 2px 10px grey;
 }
 
+
 .container-fluid{
     display: flex;
 }
 
 
-header div.container-fluid img {
+header .container-fluid img {
     max-width: 100px; 
     height: auto;
     margin-right: 20px; 
@@ -18,7 +19,7 @@ header div.container-fluid img {
 }
 
 
-header div.container-fluid h1 {
+header .container-fluid h1 {
     font-size: 70px;
     text-align: center;
     color: #F7F7F7;

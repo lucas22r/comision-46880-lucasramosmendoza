@@ -167,12 +167,11 @@ fieldset {
 
 /*elementos media queries*/
 /* Media queries del boostrap inicio  */
+
 @media screen and (max-width: 1185px) {
-  header {
-    padding: 5px; }
-  header div.container-fluid img {
+  .container-fluid img {
     max-width: 70px; }
-  header div.container-fluid h1 {
+  header .container-fluid h1 {
     font-size: 50px; }
   .container-fluid nav ul {
     gap: 20px; }
@@ -180,11 +179,9 @@ fieldset {
     font-size: 20px; } }
 
 @media screen and (max-width: 951px) {
-  header {
-    padding: 5px; }
-  header div.container-fluid img {
-    max-width: 65px; }
-  header div.container-fluid h1 {
+  header .container-fluid img {
+    max-width: px; }
+  header .container-fluid h1 {
     font-size: 45px; }
   .container-fluid nav ul {
     gap: 18px; }
@@ -192,11 +189,9 @@ fieldset {
     font-size: 18px; } }
 
 @media screen and (max-width: 874px) {
-  header {
-    padding: 5px; }
-  header div.container-fluid img {
+  header .container-fluid img {
     max-width: 65px; }
-  header div.container-fluid h1 {
+  header .container-fluid h1 {
     font-size: 40px; }
   .container-fluid nav ul {
     gap: 15px; }
@@ -204,11 +199,10 @@ fieldset {
     font-size: 15px; } }
 
 @media screen and (max-width: 790px) {
-  header {
-    padding: 5px; }
-  header div.container-fluid img {
+
+  header .container-fluid img {
     max-width: 60px; }
-  header div.container-fluid h1 {
+  header .container-fluid h1 {
     font-size: 35px; }
   .container-fluid nav ul {
     gap: 15px; }
@@ -216,11 +210,10 @@ fieldset {
     font-size: 15px; } }
 
 @media screen and (max-width: 737px) {
-  header {
-    padding: 5px; }
-  header div.container-fluid img {
+
+  header .container-fluid img {
     max-width: 60px; }
-  header div.container-fluid h1 {
+  header .container-fluid h1 {
     font-size: 30px; }
   .container-fluid nav ul {
     gap: 15px; }
@@ -228,11 +221,10 @@ fieldset {
     font-size: 15px; } }
 
 @media screen and (max-width: 689px) {
-  header {
-    padding: 5px; }
-  header div.container-fluid img {
+
+  header .container-fluid img {
     max-width: 50px; }
-  header div.container-fluid h1 {
+  header .container-fluid h1 {
     font-size: 25px; }
   .container-fluid nav ul {
     gap: 15px; }
@@ -240,11 +232,9 @@ fieldset {
     font-size: 15px; } }
 
 @media screen and (max-width: 631px) {
-  header {
-    padding: 5px; }
-  header div.container-fluid img {
+  header .container-fluid img {
     max-width: 40px; }
-  header div.container-fluid h1 {
+  header .container-fluid h1 {
     font-size: 20px; }
   .container-fluid nav ul {
     gap: 10px; }
@@ -252,11 +242,9 @@ fieldset {
     font-size: 10px; } }
 
 @media screen and (max-width: 513px) {
-  header {
-    padding: 5px; }
-  header div.container-fluid img {
+  header .container-fluid img {
     max-width: 40px; }
-  header div.container-fluid h1 {
+  header .container-fluid h1 {
     font-size: 16px; }
   .container-fluid nav ul {
     gap: 10px; }
@@ -264,11 +252,9 @@ fieldset {
     font-size: 10px; } }
 
 @media screen and (max-width: 420px) {
-  header {
-    padding: 5px; }
-  header div.container-fluid img {
+  header .container-fluid img {
     max-width: 40px; }
-  header div.container-fluid h1 {
+  header .container-fluid h1 {
     font-size: 16px; }
   .container-fluid nav ul {
     gap: 10px;
